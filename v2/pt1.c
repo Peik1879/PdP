@@ -6,5 +6,6 @@ void main(){
     printf("Wert von ptr (Adresse): %p\n", (void*)ptr);
     printf("Wert des Speicherobjekts, auf das ptr zeigt (*ptr): %d\n", *ptr);
     printf("Wert von i: %d\n", i);
-
+    *ptr = 2;
+    printf("Nach Änderung zu 2 : %i", i);
 }
